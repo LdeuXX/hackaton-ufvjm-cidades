@@ -259,7 +259,7 @@ function renderCidade() {
     if (!cidade) {
         container.innerHTML = `
       <h1>Cidade não encontrada</h1>
-      <p>Volte para a <a href="Index.html">página inicial</a> e escolha uma cidade da lista.</p>
+      <p>Volte para a <a href="index.html">página inicial</a> e escolha uma cidade da lista.</p>
     `;
         return;
     }
