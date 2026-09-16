@@ -45,7 +45,7 @@ header .menu nav a:hover {
 .hero {
     background-color: #a5d6a7;
     text-align: center;
-    padding: 40px 20px;
+    padding: 100px 20px;
 }
 
 .hero h1 {
@@ -69,6 +69,22 @@ header .menu nav a:hover {
 
 .sobre h2 {
     color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.conceitos {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.conceitos h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.conceitos h3 {
+    color: #2a782e;
     margin-bottom: 10px;
 }
 
