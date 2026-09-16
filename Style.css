@@ -1,0 +1,225 @@
+/* ===== Reset básico ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7f2;
+    color: #222;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #2e7d32;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+}
+
+header .logo img {
+    height: 45px;
+}
+
+header .menu nav a {
+    color: #fff;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 6px 4px;
+}
+
+header .menu nav a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+/* ===== Hero (topo da home) ===== */
+.hero {
+    background-color: #a5d6a7;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 1.8rem;
+    color: #1b5e20;
+    max-width: 800px;
+    margin: 0 auto 10px auto;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #2e2e2e;
+}
+
+/* ===== Sobre / info adicional ===== */
+.sobre {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.sobre h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+/* ===== Grid de cidades (home) ===== */
+.secao-cidades {
+    max-width: 1000px;
+    margin: 20px auto 50px auto;
+    padding: 0 20px;
+}
+
+.secao-cidades h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.grid-cidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.card-cidade {
+    background-color: #fff;
+    border: 2px solid #c8e6c9;
+    border-radius: 8px;
+    padding: 20px 15px;
+    text-align: center;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.card-cidade:hover {
+    transform: translateY(-3px);
+    border-color: #2e7d32;
+}
+
+.card-emoji {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+.card-cidade h3 {
+    color: #1b5e20;
+    margin-bottom: 4px;
+}
+
+.card-cidade p {
+    font-size: 0.85rem;
+    color: #555;
+}
+
+/* ===== Página da cidade ===== */
+.cidade-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px 40px 20px;
+}
+
+.voltar {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.cidade-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.cidade-emoji-grande {
+    font-size: 3rem;
+}
+
+.cidade-header h1 {
+    color: #1b5e20;
+}
+
+/* ===== Filtro ===== */
+.filtro {
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.filtro label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1b5e20;
+}
+
+.filtro select {
+    width: 100%;
+    max-width: 350px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 1rem;
+}
+
+/* ===== Lista de pontos de coleta ===== */
+.lista-pontos {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.ponto-coleta {
+    background-color: #fff;
+    border-left: 5px solid #2e7d32;
+    border-radius: 6px;
+    padding: 15px 18px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.ponto-coleta h3 {
+    color: #1b5e20;
+    margin-bottom: 6px;
+}
+
+.vazio {
+    color: #666;
+    font-style: italic;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #1b5e20;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* ===== Responsivo ===== */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    header .menu nav a {
+        margin: 0 8px;
+    }
+}
