@@ -269,7 +269,6 @@ function renderCidade() {
 
     document.title = `${cidade.nome} - Coleta Seletiva`;
 
-    // Monta a lista de tags que realmente existem nessa cidade, pro filtro
     const tagsDaCidade = new Set();
     cidade.pontos.forEach((p) => p.tags.forEach((t) => tagsDaCidade.add(t)));
 
@@ -280,11 +279,15 @@ function renderCidade() {
 
     container.innerHTML = `
     <div class="cidade-header">
-      <span class="cidade-emoji-grande">${cidade.emoji}</span>
+      <img src="${cidade.imagens}" alt="Foto de ${cidade.nome}" class="cidade-foto-grande">
       <div>
         <h1>${cidade.nome}</h1>
         <p>${cidade.intro}</p>
       </div>
+    </div>
+    
+    <div class="cidade-map">
+        <iframe width="80%" height="600" style="border:0" allowfullscreen src=${cidade.mapa}><a href="https://www.maps.ie/world-time-zone-map/">time zone search</a></iframe>
     </div>
 
     <div class="filtro">
