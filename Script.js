@@ -1,7 +1,7 @@
 const cidades = {
     saopaulo: {
         nome: "São Paulo",
-        emoji: "🏙️",
+        imagens: "imagens/saopaulo.png",
         intro: "Em São Paulo, os Ecopontos são administrados pela Prefeitura e atendem via central 156.",
         pontos: [
             { nome: "Ecoponto Bela Vista", endereco: "Rua 14 de Julho, 65 – Bela Vista", telefone: "Central 156",
@@ -23,7 +23,7 @@ const cidades = {
     },
     riodejaneiro: {
         nome: "Rio de Janeiro",
-        emoji: "🌴",
+        imagens: "imagens/rio.png",
         intro: "No Rio, os PEVs e Ecopontos são acionados pela central 1746 da Prefeitura.",
         pontos: [
             { nome: "PEV Tijuca", endereco: "Rua Dr. Renato Rocco, 400 – Tijuca", telefone: "1746",
@@ -54,7 +54,7 @@ const cidades = {
     },
     brasilia: {
         nome: "Brasília",
-        emoji: "🏛️",
+        imagens: "imagens/brasilia.png",
         intro: "Em Brasília, os Papa-Entulhos aceitam até 1 m³ de resíduos de obra por dia, além de recicláveis.",
         pontos: [
             { nome: "Papa-Entulho Asa Sul", endereco: "Avenida das Nações L4 Sul (Núcleo de Limpeza do SLU, próximo à UNIEURO)", telefone: "162 ou 156",
@@ -70,7 +70,7 @@ const cidades = {
     },
     fortaleza: {
         nome: "Fortaleza",
-        emoji: "🏖️",
+        imagens: "imagens/fortaleza.png",
         intro: "Em Fortaleza, os Ecopontos são administrados em parceria com a Ecofor.",
         pontos: [
             { nome: "Ecoponto Verdes Mares (Papicu)", endereco: "Rua Júlia Azevedo, 688 – Papicu", telefone: "156 ou 0800 275 4400",
@@ -89,7 +89,7 @@ const cidades = {
     },
     salvador: {
         nome: "Salvador",
-        emoji: "⛵",
+        imagens: "imagens/salvador.png",
         intro: "Em Salvador, os Ecopontos são atendidos pela central Fala Salvador (156).",
         pontos: [
             { nome: "Ecoponto Itaigara", endereco: "Rua Wanderley de Pinho, s/n (acesso via Av. ACM, atrás do Hiper Posto BR) – Itaigara", telefone: "156 ou (71) 3202-6000",
@@ -108,7 +108,7 @@ const cidades = {
     },
     belohorizonte: {
         nome: "Belo Horizonte",
-        emoji: "⛰️",
+        imagens: "imagens/bh.png",
         intro: "Em BH, cada unidade tem um foco diferente de materiais aceitos — vale conferir antes de ir.",
         pontos: [
             { nome: "Gelu Barreiro (Barreiro de Baixo)", endereco: "Rua Vicente de Azevedo, 301 (área interna)", telefone: "156",
@@ -130,7 +130,7 @@ const cidades = {
     },
     manaus: {
         nome: "Manaus",
-        emoji: "🌳",
+        imagens: "imagens/manaus.png",
         intro: "Em Manaus, o agendamento nos pontos é feito via WhatsApp da Semulsp.",
         pontos: [
             { nome: "Ecoponto Educandos", endereco: "Avenida Lourenço Braga, s/n (antigo prédio do PAC) – Educandos", telefone: "WhatsApp (92) 98459-5618 / (92) 98415-9563",
@@ -155,7 +155,7 @@ const cidades = {
     },
     curitiba: {
         nome: "Curitiba",
-        emoji: "🌲",
+        imagens: "imagens/curitiba.png",
         intro: "Em Curitiba, os Ecopontos também aceitam óleo de cozinha usado e restos de construção civil.",
         pontos: [
             { nome: "Ecoponto Metropolitano (São Braz)", endereco: "Rua da Independência (esquina com a Rua Pedro Corrêa da Cruz) – São Braz", telefone: "156",
@@ -174,7 +174,7 @@ const cidades = {
     },
     recife: {
         nome: "Recife",
-        emoji: "🌊",
+        imagens: "imagens/recife.png",
         intro: "Em Recife, as EcoEstações são administradas pela Emlurb e têm limite de 1 m³ de descarte por dia.",
         pontos: [
             { nome: "EcoEstação do Arruda", endereco: "Rua Farias Neves, 954-1002 – Arruda", telefone: "156",
@@ -193,7 +193,7 @@ const cidades = {
     },
     goiania: {
         nome: "Goiânia",
-        emoji: "🌿",
+        imagens: "imagens/goiania.png",
         intro: "Em Goiânia, os Ecopontos são operados pela Comurg e aceitam entulho de até 2 m³ e pneus.",
         pontos: [
             { nome: "Ecoponto Guanabara", endereco: "Rua GB-5 com Rua GB-6 – Jardim Guanabara II", telefone: "(62) 3524-8555 ou 156",
@@ -238,10 +238,13 @@ function renderHome() {
         const card = document.createElement("a");
         card.className = "card-cidade";
         card.href = `cidade.html?cidade=${slug}`;
+
         card.innerHTML = `
-      <div class="card-emoji">${cidade.emoji}</div>
-      <h3>${cidade.nome}</h3>
-      <p>${cidade.pontos.length} pontos de coleta cadastrados</p>
+      <img src="${cidade.imagens}" alt="Foto de ${cidade.nome}" class="card-foto">
+      <div class="card-conteudo">
+        <h3>${cidade.nome}</h3>
+        <p>${cidade.pontos.length} pontos de coleta cadastrados</p>
+      </div>
     `;
         grid.appendChild(card);
     });
