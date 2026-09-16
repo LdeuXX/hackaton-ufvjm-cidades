@@ -18,6 +18,15 @@ const cidades = {
                 tags: ["vidro", "plastico", "papel", "metal", "moveis", "entulho"] },
             { nome: "Ecoponto Santana", endereco: "Avenida Zaki Narchi, 737 – Santana", telefone: "Central 156",
                 materiais: "Vidro, plástico, papel, papelão, metais, móveis velhos, restos de poda e pequenos volumes de entulho.",
+                tags: ["vidro", "plastico", "papel", "metal", "moveis", "entulho"] },
+            { nome: "Ecoponto Saioá", endereco: "Endereço: R. Mary Baida Salem – Chácara Klabin", telefone: "Central 156",
+                materiais: "Vidro, plástico, papel, papelão, metais, móveis velhos, restos de poda e pequenos volumes de entulho.",
+                tags: ["vidro", "plastico", "papel", "metal", "moveis", "entulho"] },
+            { nome: "Ecoponto Cambuci", endereco: "Endereço: R. Av. Dom Pedro I, 38 – Vila Monumento", telefone: "Central 156",
+                materiais: "Vidro, plástico, papel, papelão, metais, restos de poda e pequenos volumes de entulho.",
+                tags: ["vidro", "plastico", "papel", "metal", "entulho"] },
+            { nome: "Ponto de coleta ANJUN", endereco: "Endereço: R. Rua do Gasômetro, 539 – Brás", telefone: "Central 156",
+                materiais: "Vidro, plástico, papel, papelão, metais, móveis velhos, restos de poda e pequenos volumes de entulho.",
                 tags: ["vidro", "plastico", "papel", "metal", "moveis", "entulho"] }
         ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+sao%20paulo&amp;maptype=roadmap&amp;zoom=11"
@@ -51,7 +60,13 @@ const cidades = {
                 tags: ["reciclaveis", "entulho", "moveis"] },
             { nome: "Ecoponto Recreio", endereco: "Rua Léon Eliachar, s/nº", telefone: "1746",
                 materiais: "Recicláveis, lixo domiciliar, entulhos e galhadas.",
-                tags: ["reciclaveis", "entulho"] }
+                tags: ["reciclaveis", "entulho"] },
+            { nome: "Coop Ceu Azul", endereco: "R. Isidro Rocha, 70 – Vigário Geral", telefone: "1746",
+                materiais: "Recicláveis, pequenos entulhos e bens inservíveis.",
+                tags: ["reciclaveis", "entulho", "moveis"] },
+            { nome: "Reciclagem do Méier", endereco: "R. Arquias Cordeiro, 261 – Méier", telefone: "1746",
+                materiais: "Recicláveis, pequenos entulhos e bens inservíveis.",
+                tags: ["reciclaveis", "entulho", "moveis"] }
         ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+rio+de+janeiro&amp;maptype=roadmap&amp;zoom=11"
 
@@ -68,6 +83,9 @@ const cidades = {
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de obras (até 1 m³/dia).",
                 tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] },
             { nome: "Papa-Entulho Taguatinga", endereco: "Setor G Norte, QNG 47", telefone: "162 ou 156",
+                materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de obras (até 1 m³/dia).",
+                tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] },
+            { nome: "SLU", endereco: "Setor Comercial Sul, 8 – 50/60 601/644 – Asa Sul", telefone: "162 ou 156",
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de obras (até 1 m³/dia).",
                 tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] }
         ],
@@ -90,6 +108,12 @@ const cidades = {
                 tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] },
             { nome: "Ecoponto Cidade 2000", endereco: "Rua Giselda Cysne, 92 (ladeira do posto de saúde) – Cidade 2000", telefone: "156 ou 0800 275 4400",
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de entulho de obras.",
+                tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] },
+            { nome: "Ecoponto - São João do Tauape", endereco: "Av. Visconde do Rio Branco, 3485 – Joaquim Távora", telefone: "156 ou 0800 275 4400",
+                materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de entulho de obras.",
+                tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] },
+            { nome: "Ecoponto Messejana", endereco: " R. 24 de Novembro, 300-340 – Messejana", telefone: "156 ou 0800 275 4400",
+                materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de entulho de obras.",
                 tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] }
         ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+fortaleza&amp;maptype=roadmap&amp;zoom=11"
@@ -110,6 +134,12 @@ const cidades = {
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), resíduos de pequenas obras/reformas, restos de poda de jardim e móveis ou eletrodomésticos velhos.",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico"] },
             { nome: "Ecoponto Mané Dendê (Alto da Terezinha)", endereco: "Rua Cardeal Jean, s/n – Alto da Terezinha", telefone: "156 ou (71) 3202-6000",
+                materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), resíduos de pequenas obras/reformas, restos de poda de jardim e móveis ou eletrodomésticos velhos.",
+                tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico"] },
+            { nome: "Sucapaz", endereco: "R. da Resistência, N° 13 – Bairro da Paz", telefone: "156 ou (71) 3202-6000",
+                materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), resíduos de pequenas obras/reformas, restos de poda de jardim e móveis ou eletrodomésticos velhos.",
+                tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico"] },
+            { nome: "Ecoponto Itaigara", endereco: "R. Wanderley Pinho – Itaigara", telefone: "156 ou (71) 3202-6000",
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), resíduos de pequenas obras/reformas, restos de poda de jardim e móveis ou eletrodomésticos velhos.",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico"] }
         ],
@@ -182,7 +212,13 @@ const cidades = {
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico", "oleo"] },
             { nome: "Ecoponto Cajuru", endereco: "Rua Prefeito Lothário Meissner, s/n – Cajuru", telefone: "156",
                 materiais: "Papel, metal, plástico, isopor e vidro, restos de construção civil, madeira, móveis velhos, eletroeletrônicos, resíduos de poda e óleo de cozinha pós-consumo.",
-                tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico", "oleo"] }
+                tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico", "oleo"] },
+            { nome: "Reciclatron Reciclagem de Eletrônicos", endereco: "Rua Anne Frank, 109 – Portão 2 – Hauer", telefone: "156",
+                materiais: "Eletroeletrônicos",
+                tags: ["eletronico"] },
+            { nome: "Ecoponto Caiuá", endereco: "Av. Juscelino Kubitschek de Oliveira – Ld, 6800 – Cidade Industrial de Curitiba", telefone: "156",
+                materiais: "Papel, metal, plástico, isopor e vidro, restos de construção civil, madeira, móveis velhos, resíduos de poda e óleo de cozinha pós-consumo.",
+                tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "oleo"] }
         ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+curitiba&amp;maptype=roadmap&amp;zoom=11"
 
@@ -227,7 +263,17 @@ const cidades = {
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "pneus", "moveis", "oleo"] },
             { nome: "Ecoponto Eldorado Oeste", endereco: "Rua Elo 43 – Parque Eldorado Oeste", telefone: "(62) 3524-8555 ou 156",
                 materiais: "Papel, metal, plástico, isopor e vidro, resíduos de construção civil (até 2 m³), restos de poda, pneus (até 4 un.), móveis inservíveis e óleo de cozinha usado.",
+                tags: ["papel", "metal", "plastico", "vidro", "entulho", "pneus", "moveis", "oleo"] },
+            { nome: "BR Mix - Unidade Goiânia", endereco: "R. BM-1, 01 - QD. 05, LT. 13 - Res. Brisas da Mata", telefone: "(62) 9 3618-0822",
+                materiais: "Papel, metal, plástico, isopor e vidro, resíduos de construção civil (até 2 m³), restos de poda, pneus (até 4 un.), móveis inservíveis e óleo de cozinha usado.",
+                tags: ["papel", "metal", "plastico", "vidro", "entulho", "pneus", "moveis", "oleo"] },
+            { nome: "Copel Recicláveis", endereco: "R. Sabiá, 477 - Santa Genoveva", telefone: "(62) 3204-2180",
+                materiais: "Papel, metal, plástico, isopor e vidro, resíduos de construção civil (até 2 m³), restos de poda, pneus (até 4 un.), móveis inservíveis e óleo de cozinha usado.",
+                tags: ["papel", "metal", "plastico", "vidro", "entulho", "pneus", "moveis", "oleo"] },
+            { nome: "CICLO VERDE - Gerenciamento de Resíduos", endereco: "Av. Gameleiras, 3620 - Parque Santa Maria", telefone: "(62) 3273-8181",
+                materiais: "Papel, metal, plástico, isopor e vidro, resíduos de construção civil (até 2 m³), restos de poda, pneus (até 4 un.), móveis inservíveis e óleo de cozinha usado.",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "pneus", "moveis", "oleo"] }
+
         ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+goiania&amp;maptype=roadmap&amp;zoom=11"
 
