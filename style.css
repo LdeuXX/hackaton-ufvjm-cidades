@@ -9,3 +9,7 @@ body {
     color: black;
     background-color: #fff9f9;
 }
+
+#map {
+  height: 100%;
+}
