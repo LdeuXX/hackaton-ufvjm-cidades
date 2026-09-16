@@ -20,6 +20,8 @@ const cidades = {
                 materiais: "Vidro, plástico, papel, papelão, metais, móveis velhos, restos de poda e pequenos volumes de entulho.",
                 tags: ["vidro", "plastico", "papel", "metal", "moveis", "entulho"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+sao%20paulo&amp;maptype=roadmap&amp;zoom=11"
+
     },
     riodejaneiro: {
         nome: "Rio de Janeiro",
@@ -51,6 +53,8 @@ const cidades = {
                 materiais: "Recicláveis, lixo domiciliar, entulhos e galhadas.",
                 tags: ["reciclaveis", "entulho"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+rio+de+janeiro&amp;maptype=roadmap&amp;zoom=11"
+
     },
     brasilia: {
         nome: "Brasília",
@@ -67,6 +71,8 @@ const cidades = {
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de obras (até 1 m³/dia).",
                 tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+brasilia&amp;maptype=roadmap&amp;zoom=11"
+
     },
     fortaleza: {
         nome: "Fortaleza",
@@ -86,6 +92,8 @@ const cidades = {
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de entulho de obras.",
                 tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+fortaleza&amp;maptype=roadmap&amp;zoom=11"
+
     },
     salvador: {
         nome: "Salvador",
@@ -105,6 +113,8 @@ const cidades = {
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), resíduos de pequenas obras/reformas, restos de poda de jardim e móveis ou eletrodomésticos velhos.",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+salvador&amp;maptype=roadmap&amp;zoom=11"
+
     },
     belohorizonte: {
         nome: "Belo Horizonte",
@@ -127,6 +137,7 @@ const cidades = {
                 materiais: "Latas de metal, plástico e pequenos volumes.",
                 tags: ["metal", "plastico"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+belo+horizonte&amp;maptype=roadmap&amp;zoom=11"
     },
     manaus: {
         nome: "Manaus",
@@ -152,6 +163,8 @@ const cidades = {
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos).",
                 tags: ["papel", "metal", "plastico", "vidro"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+manaus&amp;maptype=roadmap&amp;zoom=11"
+
     },
     curitiba: {
         nome: "Curitiba",
@@ -171,6 +184,8 @@ const cidades = {
                 materiais: "Papel, metal, plástico, isopor e vidro, restos de construção civil, madeira, móveis velhos, eletroeletrônicos, resíduos de poda e óleo de cozinha pós-consumo.",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico", "oleo"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+curitiba&amp;maptype=roadmap&amp;zoom=11"
+
     },
     recife: {
         nome: "Recife",
@@ -190,6 +205,8 @@ const cidades = {
                 materiais: "Papel, metal, plástico, isopor e vidro, metralhas de pequenas obras, móveis velhos, utensílios domésticos e resíduos de poda (até 1 m³/dia).",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+recife&amp;maptype=roadmap&amp;zoom=11"
+
     },
     goiania: {
         nome: "Goiânia",
@@ -212,6 +229,8 @@ const cidades = {
                 materiais: "Papel, metal, plástico, isopor e vidro, resíduos de construção civil (até 2 m³), restos de poda, pneus (até 4 un.), móveis inservíveis e óleo de cozinha usado.",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "pneus", "moveis", "oleo"] }
         ]
+        mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+goiania&amp;maptype=roadmap&amp;zoom=11"
+
     }
 };
 
