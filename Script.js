@@ -19,7 +19,7 @@ const cidades = {
             { nome: "Ecoponto Santana", endereco: "Avenida Zaki Narchi, 737 – Santana", telefone: "Central 156",
                 materiais: "Vidro, plástico, papel, papelão, metais, móveis velhos, restos de poda e pequenos volumes de entulho.",
                 tags: ["vidro", "plastico", "papel", "metal", "moveis", "entulho"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+sao%20paulo&amp;maptype=roadmap&amp;zoom=11"
 
     },
@@ -52,7 +52,7 @@ const cidades = {
             { nome: "Ecoponto Recreio", endereco: "Rua Léon Eliachar, s/nº", telefone: "1746",
                 materiais: "Recicláveis, lixo domiciliar, entulhos e galhadas.",
                 tags: ["reciclaveis", "entulho"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+rio+de+janeiro&amp;maptype=roadmap&amp;zoom=11"
 
     },
@@ -70,7 +70,7 @@ const cidades = {
             { nome: "Papa-Entulho Taguatinga", endereco: "Setor G Norte, QNG 47", telefone: "162 ou 156",
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de obras (até 1 m³/dia).",
                 tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+brasilia&amp;maptype=roadmap&amp;zoom=11"
 
     },
@@ -91,7 +91,7 @@ const cidades = {
             { nome: "Ecoponto Cidade 2000", endereco: "Rua Giselda Cysne, 92 (ladeira do posto de saúde) – Cidade 2000", telefone: "156 ou 0800 275 4400",
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), óleo de cozinha usado, restos de poda, móveis velhos e pequenas sobras de entulho de obras.",
                 tags: ["papel", "metal", "plastico", "vidro", "oleo", "moveis", "entulho"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+fortaleza&amp;maptype=roadmap&amp;zoom=11"
 
     },
@@ -112,7 +112,7 @@ const cidades = {
             { nome: "Ecoponto Mané Dendê (Alto da Terezinha)", endereco: "Rua Cardeal Jean, s/n – Alto da Terezinha", telefone: "156 ou (71) 3202-6000",
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos), resíduos de pequenas obras/reformas, restos de poda de jardim e móveis ou eletrodomésticos velhos.",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+salvador&amp;maptype=roadmap&amp;zoom=11"
 
     },
@@ -136,7 +136,7 @@ const cidades = {
             { nome: "Unidade Castelo", endereco: "Av. Pres. Tancredo Neves - Castelo", telefone: "156",
                 materiais: "Latas de metal, plástico e pequenos volumes.",
                 tags: ["metal", "plastico"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+belo+horizonte&amp;maptype=roadmap&amp;zoom=11"
     },
     manaus: {
@@ -162,7 +162,7 @@ const cidades = {
             { nome: "PEV Supermercado Nova Era (Novo Aleixo)", endereco: "Avenida Governador José Lindoso (Av. das Torres), s/n – Novo Aleixo", telefone: "WhatsApp (92) 98459-5618 / (92) 98415-9563",
                 materiais: "Papel, metal, plástico, isopor e vidro (limpos e secos).",
                 tags: ["papel", "metal", "plastico", "vidro"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+manaus&amp;maptype=roadmap&amp;zoom=11"
 
     },
@@ -183,7 +183,7 @@ const cidades = {
             { nome: "Ecoponto Cajuru", endereco: "Rua Prefeito Lothário Meissner, s/n – Cajuru", telefone: "156",
                 materiais: "Papel, metal, plástico, isopor e vidro, restos de construção civil, madeira, móveis velhos, eletroeletrônicos, resíduos de poda e óleo de cozinha pós-consumo.",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis", "eletronico", "oleo"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+curitiba&amp;maptype=roadmap&amp;zoom=11"
 
     },
@@ -204,7 +204,7 @@ const cidades = {
             { nome: "EcoEstação Imbiribeira", endereco: "Viaduto Presidente Tancredo Neves – Imbiribeira", telefone: "156",
                 materiais: "Papel, metal, plástico, isopor e vidro, metralhas de pequenas obras, móveis velhos, utensílios domésticos e resíduos de poda (até 1 m³/dia).",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "moveis"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+recife&amp;maptype=roadmap&amp;zoom=11"
 
     },
@@ -228,7 +228,7 @@ const cidades = {
             { nome: "Ecoponto Eldorado Oeste", endereco: "Rua Elo 43 – Parque Eldorado Oeste", telefone: "(62) 3524-8555 ou 156",
                 materiais: "Papel, metal, plástico, isopor e vidro, resíduos de construção civil (até 2 m³), restos de poda, pneus (até 4 un.), móveis inservíveis e óleo de cozinha usado.",
                 tags: ["papel", "metal", "plastico", "vidro", "entulho", "pneus", "moveis", "oleo"] }
-        ]
+        ],
         mapa: "https://www.google.com/maps/embed/v1/search?key=AIzaSyBVizdQeh3udy11xDc5Ao2YStR2gLc-rfc&amp;q=pontos+de+coleta+seletiva+em+goiania&amp;maptype=roadmap&amp;zoom=11"
 
     }
@@ -306,7 +306,7 @@ function renderCidade() {
     </div>
     
     <div class="cidade-map">
-        <iframe width="80%" height="600" style="border:0" allowfullscreen src=${cidade.mapa}><a href="https://www.maps.ie/world-time-zone-map/">time zone search</a></iframe>
+        <iframe width="100%" height="600" style="border:0" allowfullscreen src=${cidade.mapa}><a href="https://www.maps.ie/world-time-zone-map/">time zone search</a></iframe>
     </div>
 
     <div class="filtro">
