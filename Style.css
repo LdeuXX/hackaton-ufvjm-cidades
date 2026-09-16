@@ -83,6 +83,46 @@ header .menu nav a:hover {
     margin-bottom: 10px;
 }
 
+.azul{
+    color: blue;
+}
+
+.vermelho{
+    color: red;
+}
+.verde{
+    color: green;
+}
+
+.amarelo{
+    color: rgba(221, 221, 48, 0.959);
+}
+
+.marrom{
+    color: brown;
+}
+
+.cinza{
+    color: grey;
+}
+
+.laranja{
+    color: orange;
+}
+
+.branco{
+    -webkit-text-stroke:0.40px black;
+    color: white;
+}
+
+.preto{
+    font-weight: bold;
+}
+
+.roxo{
+    color: purple;
+}
+
 .conceitos h3 {
     color: #2a782e;
     margin-bottom: 10px;
