@@ -42,6 +42,11 @@ header .menu nav a:hover {
     border-bottom: 2px solid #ffffff;
 }
 
+.nome{
+    font-size: 1.2rem;
+    color : white;
+}
+
 .hero {
     background-color: #a5d6a7;
     text-align: center;
